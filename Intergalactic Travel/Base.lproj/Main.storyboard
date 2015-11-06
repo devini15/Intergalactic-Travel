@@ -24,6 +24,9 @@
                                     <constraint firstAttribute="width" constant="106" id="yel-8C-Jzp"/>
                                 </constraints>
                                 <state key="normal" title="Visit Red Dwarf"/>
+                                <connections>
+                                    <segue destination="Gvt-oJ-FZq" kind="show" id="6ok-Ve-udu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LN6-xs-PdC">
                                 <rect key="frame" x="252" y="285" width="96" height="30"/>
@@ -32,6 +35,9 @@
                                     <constraint firstAttribute="height" constant="30" id="lD8-Se-TNt"/>
                                 </constraints>
                                 <state key="normal" title="Visit Blue Star"/>
+                                <connections>
+                                    <segue destination="Gvt-oJ-FZq" kind="show" id="TTA-vV-O0D"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -46,7 +52,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1109" y="-343"/>
+            <point key="canvasLocation" x="-175" y="-2571"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="7En-9K-W4c">
+            <objects>
+                <viewController id="Gvt-oJ-FZq" customClass="ImageViewController" customModule="Intergalactic_Travel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uVz-aC-vtg"/>
+                        <viewControllerLayoutGuide type="bottom" id="2IH-fe-HaX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EDd-8V-13d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="naI-RB-YVC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="-2571"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dkt-ly-aVh">
@@ -64,7 +88,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rMa-Dg-MHj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="446" y="-343"/>
+            <point key="canvasLocation" x="-848" y="-2571"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="TTA-vV-O0D"/>
+    </inferredMetricsTieBreakers>
 </document>

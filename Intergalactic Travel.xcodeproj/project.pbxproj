@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7AE1D171BED43A300040CAA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AE1D161BED43A300040CAA /* ImageViewController.swift */; };
 		D7CA0E381BEBF2C20068288D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA0E371BEBF2C20068288D /* AppDelegate.swift */; };
 		D7CA0E3A1BEBF2C20068288D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA0E391BEBF2C20068288D /* ViewController.swift */; };
 		D7CA0E3D1BEBF2C20068288D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CA0E3B1BEBF2C20068288D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7AE1D161BED43A300040CAA /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		D7CA0E341BEBF2C20068288D /* Intergalactic Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intergalactic Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CA0E371BEBF2C20068288D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CA0E391BEBF2C20068288D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				D7CA0E371BEBF2C20068288D /* AppDelegate.swift */,
 				D7CA0E391BEBF2C20068288D /* ViewController.swift */,
 				D7CA0E3B1BEBF2C20068288D /* Main.storyboard */,
+				D7AE1D161BED43A300040CAA /* ImageViewController.swift */,
 				D7CA0E3E1BEBF2C20068288D /* Assets.xcassets */,
 				D7CA0E401BEBF2C20068288D /* LaunchScreen.storyboard */,
 				D7CA0E431BEBF2C20068288D /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7CA0E3A1BEBF2C20068288D /* ViewController.swift in Sources */,
+				D7AE1D171BED43A300040CAA /* ImageViewController.swift in Sources */,
 				D7CA0E381BEBF2C20068288D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				D7CA0E5E1BEBF2C30068288D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7CA0E5F1BEBF2C30068288D /* Build configuration list for PBXNativeTarget "Intergalactic TravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				D7CA0E611BEBF2C30068288D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7CA0E621BEBF2C30068288D /* Build configuration list for PBXNativeTarget "Intergalactic TravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				D7CA0E641BEBF2C30068288D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
